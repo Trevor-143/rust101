@@ -27,7 +27,8 @@ fn main() {
     println!("Trevor says {}", stone_cold);
 
     let string: String = String::from("Hello, world of 🦀!");
-    let slice: &str = &string[0..5];
+    // let slice: &str = &string[0..5];
+    let slice: &str = &string;
     println!("The slice is {}", slice);
 
 }
